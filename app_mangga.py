@@ -7,12 +7,12 @@ from PIL import Image
 
 
 # Load your trained model
-model_path = 'C:\\Users\\User\\app_mangga\\mangga_model.h5' # Path to your saved model
+model_path = 'mangga_model.h5' # Path to your saved model
 model = load_model(model_path)
 
 # Tentukan ukuran gambar dan nama kelas
 IMAGE_WIDTH, IMAGE_HEIGHT = 224, 224
-class_names = open("C:\\Users\\User\\app_mangga\\labels_mangga.txt", "r").readlines()
+class_names = open("C:labels_mangga.txt", "r").readlines()
 # Fungsi untuk memprediksi gambar
 def predict(image, model):
     image = image.resize((IMAGE_WIDTH, IMAGE_HEIGHT))
