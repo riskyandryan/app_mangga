@@ -92,7 +92,6 @@ st.markdown("""
 selected_menu = st.sidebar.selectbox("Navigasi Menu", ["Home", "Prediksi", "Tentang Aplikasi", "About Me"])
 
 if selected_menu == "Home":
-  st.markdown('<div class="logo" style="text-align:center;"><img src="image/logo_unindra.png" style="width: 200px;"></div>', unsafe_allow_html=True)
   st.markdown('<h1 class="centered">🍃 Deteksi Penyakit pada Buah Mangga Menggunakan Pengolahan Citra Dengan Metode OpenCV 🍃</h1>', unsafe_allow_html=True)
 
   st.write("""
