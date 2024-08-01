@@ -12,7 +12,7 @@ model = load_model(model_path)
 
 # Tentukan ukuran gambar dan nama kelas
 IMAGE_WIDTH, IMAGE_HEIGHT = 224, 224
-class_names = open("C:labels_mangga.txt", "r").readlines()
+class_names = open("labels_mangga.txt", "r").readlines()
 # Fungsi untuk memprediksi gambar
 def predict(image, model):
     image = image.resize((IMAGE_WIDTH, IMAGE_HEIGHT))
