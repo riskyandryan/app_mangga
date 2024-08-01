@@ -92,7 +92,7 @@ st.markdown("""
 selected_menu = st.sidebar.selectbox("Navigasi Menu", ["Home", "Prediksi", "Tentang Aplikasi", "About Me"])
 
 if selected_menu == "Home":
-  st.markdown('<div class="logo" style="text-align:center;"><img src="C:\\Users\\User\\app_mangga\\image\\logo_unindra.png" style="width: 200px;"></div>', unsafe_allow_html=True)
+  st.markdown('<div class="logo" style="text-align:center;"><img src="image\logo_unindra.png" style="width: 200px;"></div>', unsafe_allow_html=True)
   st.markdown('<h1 class="centered">🍃 Deteksi Penyakit pada Buah Mangga Menggunakan Pengolahan Citra Dengan Metode OpenCV 🍃</h1>', unsafe_allow_html=True)
 
   st.write("""
@@ -107,27 +107,27 @@ if selected_menu == "Home":
 
   with col1:
     st.markdown('### Alternaria')
-    st.image('c:\\Users\\User\\app_mangga\\image\\alternaria_047.jpg', use_column_width=True)
+    st.image('image\alternaria_047.jpg', use_column_width=True)
     st.markdown('Penyakit Alternaria disebabkan oleh jamur Alternaria alternata, menimbulkan bercak coklat kehitaman pada buah, daun, dan batang mangga. Bercak-bercak ini sering berbentuk bulat atau oval dan dapat berkembang menjadi lesi yang lebih besar, merusak daging buah, dan menyebabkan daun gugur.')
 
   with col2:
     st.markdown('### Anthracnose')
-    st.image('C:\\Users\\User\\app_mangga\\image\\anthracnose_016.jpg', use_column_width=True)
+    st.image('image\anthracnose_016.jpg', use_column_width=True)
     st.markdown('Penyakit Anthracnose disebabkan oleh jamur Colletotrichum gloeosporioides, menimbulkan bercak hitam kecil yang berkembang menjadi lesi besar dan cekung pada buah. Munculnya jamur hitam pada permukaan buah mangga adalah tanda penyakit ini.')
 
   with col3:
     st.markdown('### Black Mould Rot')
-    st.image('C:\\Users\\User\\app_mangga\\image\\aspergillus_004.jpg', use_column_width=True)
+    st.image('image\aspergillus_004.jpg', use_column_width=True)
     st.markdown('Black Mould Rot disebabkan oleh jamur Aspergillus niger. Bagian yang terinfeksi menjadi lembek dan busuk, membuat buah tidak layak konsumsi dan berkualitas rendah.')
 
   with col4:
     st.markdown('### Healthy')
-    st.image('C:\\Users\\User\\app_mangga\\image\\healthy_063.jpg', use_column_width=True)
+    st.image('image\healthy_063.jpg', use_column_width=True)
     st.markdown('Buah mangga yang sehat memiliki warna yang cerah, rata-rata, dan tidak rusak. Daging buahnya padat, beraroma manis, dan bebas dari lubang atau kerusakan yang disebabkan oleh hama atau penyakit. Kulitnya halus dan tidak menunjukkan tanda-tanda busuk atau jamur.')
 
   with col5:
     st.markdown('### Stem and Rot')
-    st.image('C:\\Users\\User\\app_mangga\\image\\lasio_001.jpg', use_column_width=True)
+    st.image('image\lasio_001.jpg', use_column_width=True)
     st.markdown('Penyakit Stem and Rot disebabkan oleh jamur seperti Botrytis cinerea atau Alternaria alternata, menyebabkan busuk pada ujung batang buah. Area lunak dan coklat kehitaman di sekitar ujung buah menunjukkan bahwa infeksi dapat menyebar ke dalam buah, menyebabkan daging buah membusuk.')
 
   st.markdown("""
